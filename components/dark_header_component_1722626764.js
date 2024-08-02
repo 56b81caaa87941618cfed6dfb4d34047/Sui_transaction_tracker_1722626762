@@ -17,7 +17,7 @@ Vue.component("dark_header_component_1722626764", {
                 </div>
                 <!-- Right side -->
                 <div id="right-side" class="flex grow justify-end items-center">
-                    <button class="mr-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300">Hello World</button>
+                    <button class="mr-4 px-4 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition duration-300">Hello World</button>
                     <!-- Light switch -->
                     <div id="light-switch-container" class="flex flex-col justify-center">
                         <input type="checkbox" name="light-switch" id="light-switch" class="light-switch peer sr-only" @click="toggleDarkMode" />

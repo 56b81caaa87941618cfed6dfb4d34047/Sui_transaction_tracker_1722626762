@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1722626764", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions about Sui Transaction Analytics</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -38,10 +38,10 @@ Vue.component("quoty_faq_accordion_component_1722626764", {
             svgFillStyle: "fill-slate-400 dark:fill-slate-500",
             termsTextStyle: "text-slate-500 dark:text-slate-400",
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is Sui and why do I need transaction analytics?", description: "Sui is a high-performance blockchain platform. Our app provides essential analytics to help you understand Sui transactions, optimize your strategies, and stay ahead in the fast-paced world of blockchain.", expanded: false },
+                { title: "How does your app gather Sui transaction data?", description: "Our app utilizes advanced APIs and real-time data processing to collect and analyze Sui blockchain transactions. We ensure accuracy and up-to-the-minute insights for all users.", expanded: false },
+                { title: "What types of analytics does your app offer?", description: "Our app offers a wide range of analytics including transaction volume, gas fees, popular smart contracts, wallet activity, and trending tokens. We also provide custom analytics tailored to your specific needs.", expanded: false },
+                { title: "How can these analytics benefit my blockchain projects?", description: "Our Sui transaction analytics can help you identify market trends, optimize gas costs, discover popular dApps, and make data-driven decisions for your blockchain projects. Whether you're a developer, investor, or researcher, our insights give you a competitive edge.", expanded: false },
             ],
         };
     },
